@@ -8,4 +8,7 @@ RedRock Homework
     能不能更简单一点！！
 
 兼容到IE6...QAQ   
+至于JS只有一个slider..   
+完全不是slider..只是一个切换..还没有`动画效果`   
+就这样吧..   
 好变态..QAQ   
