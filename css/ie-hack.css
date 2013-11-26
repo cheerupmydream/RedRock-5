@@ -1,0 +1,81 @@
+/**
+ *  RedRock Homework CSS IE Hack
+ *  by Ricter(mailto:RicterZheng@gmail.com)
+ *  2013/11/26
+ */
+ 
+a, 
+li, 
+.btn, 
+.logo-font,
+div.logo,
+div.s-button, 
+div.content-hello, 
+div.content-services, 
+div.content-features,
+div.content-contact,
+div.productions-item
+{
+  zoom: 1;
+  *display: inline;
+}
+
+p,
+li ,
+h1,
+h2, 
+h3, 
+h4,
+h5, 
+h6, 
+span
+{
+  *white-space: normal;
+  *padding: 0;
+}
+
+.btn {
+  *background:#3858F1;
+}
+
+.content {
+  *padding: 0;
+}
+
+.main-block {
+  *background: #333;
+}
+
+.logo-font {
+  *font-size: 12px;
+}
+
+.container {
+  *position:relative;
+  *top: 72px;
+}
+
+.footer {
+  zoom: 1;
+  *margin-top: 0;
+}
+
+.logo-font {
+  *font-size: 12px;
+}
+
+a.services {
+  *margin-bottom: 10px;
+}
+
+div.nav-inner{
+  *overflow: hidden;
+}
+
+div.nav-icon img {
+  *padding: 0;
+}
+
+div.active {
+  *background:#3858F1;
+}

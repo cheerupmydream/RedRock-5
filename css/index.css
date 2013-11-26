@@ -1,0 +1,397 @@
+/**
+ *  RedRock Homework CSS
+ *  by Ricter(mailto:RicterZheng@gmail.com)
+ *  2013/11/26
+ */
+ 
+* {
+  padding: 0;
+  margin: 0;
+  color: #a8a8a8;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.inline {
+  display: inline;
+}
+  
+body {
+  background: #111;
+  background: url(../img/bc.jpg);
+  font-family: "Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei",sans-serif;
+}
+
+div.nav, div.nav-inner-block {
+  width: 100%;
+  height: 36px;
+  position: absolute;
+  top: 0;left: 0;
+}
+
+div.nav {
+  border-bottom: 1px solid #000;
+}
+
+div.nav-inner-block {
+  z-index: -1;
+  opacity: 0.2;
+  background:#000;
+}
+
+
+div.nav-inner, div.container{
+  width:982px;
+  margin: 0 auto;
+}
+
+div.nav-inner {
+  height: 100%;
+}
+
+div.container {
+  margin-top: 72px;
+}
+
+div.container > * {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.nav-inner div{
+  font-size:12px;
+  padding: 10px 0 9px 0;
+}
+
+.nav-inner a, .footer a, .a {
+  color: #818082;
+  text-decoration: blink;
+}
+
+.nav-inner a:hover, a.hover, .footer a:hover {
+  color: #B2B2B2;
+  text-decoration: underline;
+}
+
+span.div {
+  color: #000;
+  padding: 0 3px 0 3px;
+}
+
+div.nav-icon img {
+  padding: 0 5px 0 5px;
+}
+
+div.navbar {
+  width: 100%;
+  margin: 0 auto 18px auto;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px #000;
+}
+
+ul.navbar {
+  height: 55px;
+  border: 1px solid #393939;
+  border-top: 1px solid #a3cbdd;
+  border-bottom: 1px solid #8b8b8b;
+  border-radius: 10px;
+  background: #1b75b8;
+  backfround: -webkit-gradient(linear,0 0,0 100%,from(#4a8aba),to(#1b75b8));
+  background: -moz-linear-gradient(top,#4a8aba,#1b75b8);
+  background: linear-gradient(to bottom,#4a8aba,#1b75b8);
+}
+
+ul.navbar > li {
+  float: left;
+  display: inline;
+  border-right: 1px solid #336889;
+  border-left: 1px solid #6ca3cb;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+a {
+  color: #FFF;
+  text-decoration: blink;
+}
+
+a.nav {
+  padding: 20px;
+  display: inline-block;
+}
+
+ul.navbar > li:hover {
+  background: #4a8aba;
+}
+
+div.logo {
+  margin-bottom: 30px;
+}
+
+.logo-font {
+  font-size: 10px;
+  color: #818082;
+}
+
+form > *{
+  float: left;
+  border: 1px solid #686868;
+  background: #000;
+  backfround: -webkit-gradient(linear,0 0,0 100%,from(#000),to(#111));
+  background: -moz-linear-gradient(top,#000,#111);
+  background: linear-gradient(to bottom,#000,#111);
+}
+
+input.searchbox {
+  height: 20px;
+  width: 200px;
+  padding: 3px;
+  border-radius: 20px 0 0 20px;
+  color: #818082;
+  font-size: 10px;
+}
+
+button.search-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 0 20px 20px 0;
+}
+
+button > img {
+  width: 60%;
+}
+
+div.slider-main {
+  height: 477px;
+  width: 100%;
+}
+
+div.slider-container {
+  height: 420px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #000;
+}
+
+div.slider-button {
+  width: 100%;
+  height: 18px;
+  padding: 18px;
+}
+
+div.slider-item {
+  width: 982px;
+  height: 420px;
+  display: inline;
+  position: absolute;
+  border-radius: 10px 10px 0 0;
+}
+
+
+div.s-button {
+  width: 18px;
+
+  height: 18px;
+  margin: 0 5px;
+  display: inline-block;
+  border-radius: 100%;
+  background:#FFF;
+  backfround: -webkit-gradient(linear,0 0,0 100%,from(#FFF),to(#EEE));
+  background: -moz-linear-gradient(top,#FFF,#EEE);
+  background: linear-gradient(to bottom,#FFF,#EEE);
+}
+
+div.slider-button-container {
+  margin: 0 auto;
+  width: 100px;
+}
+
+div.active {
+  background:#a3cbdd;
+  backfround: -webkit-gradient(linear,0 0,0 100%,from(#0666b6),to(#1084c5));
+  background: -moz-linear-gradient(top,#0666b6,#1084c5);
+  background: linear-gradient(to bottom,#0666b6,#1084c5);
+}
+
+div.info-bar {
+  width: 100%;
+  height: 63px;
+  float: left;
+  background: #111;
+  border-radius: 0 0 10px 10px;
+}
+
+div.info-container {
+  padding: 12px 186px;
+}
+
+div.s-container {
+  width: 100%;
+  height: 357px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+span.logo-font {
+  width:153px;
+  display: inline-block;
+  padding: 3px 10px;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 6px;
+  margin: 3px 0 0 0;
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 12px;
+  background:#a3cbdd;
+  backfround: -webkit-gradient(linear,0 0,0 100%,from(#0666b6),to(#1084c5));
+  background: -moz-linear-gradient(top,#0666b6,#1084c5);
+  background: linear-gradient(to bottom,#0666b6,#1084c5);
+}
+
+.main {
+  margin: 10px 0;
+  width: 100%;
+  height: 640px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #111;
+}
+
+.main > h1, h2, h3, h4, h5, h6, p, span {
+  white-space: normal;
+}
+
+.main-block {
+  width: 980px;
+  height: 640px;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.5;
+  background: #000;
+  border-radius: 10px;
+}
+
+div.footer {
+  height: 18px;
+  width: 100%;
+  margin: 10px 0 30px 0;
+  font-size: 14px;
+}
+
+div.content-hello {
+  width: 619px;
+  height: 234px;
+  float: left;
+  display: inline-block;
+  padding: 20px 15px 35px 22px;
+}
+
+
+div.content-services {
+  width: 289px;
+  height: 234px;
+  float: left;
+  display: inline-block;
+  padding: 20px 22px 35px 15px;
+}
+
+.content {
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+
+a.services {
+  color:#349ce6;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+a.services:hover {
+  color:#FFF;
+}
+
+ul.services {
+  padding-left: 18px;
+}
+
+ul.services> li {
+  overflow: visible;
+  padding-bottom: 12px;
+}
+
+div.content-features {
+  width: 619px;
+  height: 270px;
+  float: left;
+  display: inline-block;
+  padding: 35px 15px 40px 22px;
+}
+
+div.content-contact {
+  width: 289px;
+  height: 270px;
+  float: left;
+  display: inline-block;
+  padding: 35px 22px 40px 15px;
+}
+
+div.productions {
+  height: 152px;
+  width:100%;
+  float:left;
+  margin-top:12px;
+  border-top: 2px solid #1c1c1c;
+  border-bottom: 2px solid #1c1c1c;
+}
+
+div.productions-block {
+  height: 153px;
+  width:619px;
+  position: absolute;
+  z-index:-1;
+  opacity: 0.5;
+  background:#000;
+}
+
+div.production-img {
+  height: 95px;
+  width: 128px;
+  background:#FFF;
+}
+
+div.productions-item {
+  width: 127px;
+  height: 117px;
+  padding: 20px 6px 0 6px;
+  display: inline-block;
+}
+
+a.prounction-title {
+  display: block;
+  margin-top: 10px;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: blink;
+}
+
+div.arrow-left {
+  padding: 65px 0 65px 10px;
+}
+
+div.arrow-right {
+  padding: 65px 10px 65px 0;
+}
+
+div.prounctions-container {
+  height: 140px;
+}
