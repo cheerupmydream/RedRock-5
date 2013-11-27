@@ -12,3 +12,6 @@ RedRock Homework
 完全不是slider..只是一个切换..还没有`动画效果`   
 就这样吧..   
 好变态..QAQ   
+   
+本想基于jQuery和Bootstrap的。但是想了想还是算了    
+于是很蛋疼的轮播不会写..   
